@@ -70,6 +70,11 @@ while [ -n "$1" ]; do
 	esac
 	shift
 done
+if $b=="none";then
+prntf "hello it was wonderful day"
+fi
+printf " exiting the program"
+exit
 
 mycurl(){
 	path=$4
